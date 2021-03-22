@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select, textarea{
+  width: 150%;
+  padding: 12px 14px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 70%;
+}
+
+
+
+input[type=submit] {
+  width: 75%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 70%;
+}
+
+input[type=submit]:hover {
+  background-color: #229428;
+}
+
+p.labelaErr {
+  font-family: sans-serif;
+  font-style: italic;
+	font-size: 10px;
+  color: red;
+}
+
+p.labelaOk {
+  font-family: sans-serif;
+  font-style: italic;
+	font-size: 10px;
+  	color:green;
+}
+
+div {
+  border-radius: 20px;
+  background-color: #b1b1b1;
+  padding: 20px;
+  width: 40%;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Dodaj recenziju na prodavca</title>
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/dodajRecenzijuProdavac.js" type="text/javascript"></script>
+<body>
+
+<h3>Forma za dodavanje recenzije prodavca</h3>
+
+<div>
+  <form id=dodavanjeRecenzijeProdavac>
+  	<table>
+    
+    <tr>
+    	<td> <label>Prodavac:</label> </td>
+        <td><input type="text" readonly id="prodavac">     
+        </td>
+   </tr>
+      
+    <tr>
+       <td><label>Recenzent:</label></td>
+       <td>  <input  type="text" id="recenzentKupac" name="recenzent" readonly> </td>
+    </tr>  
+
+
+  	 <tr>
+  		<td> <label >Naslov recenzije:</label> </td>
+	    <td>  <input  type="text" id="naslov" name="naslov" placeholder="Unesite naziv.."> </td>
+	   </tr>
+	
+	<tr>
+		<td> <label>Sadrzaj recenzije: </label> </td>
+	    <td> <textarea id="sadrzaj" name="sadrzaj" placeholder="Unesite opis.." style="height:200px"></textarea></td>
+  </tr>
+  
+  <tr>
+  	<td> <label >Da li je opis iz oglasa tacan?</label> </td>
+    <td>
+                 <div class="oglasTacan">
+                      <label><input type="radio" value="da"  name="oglasTacan">Da</label><br>
+                      <label><input type="radio" value="ne" name="oglasTacan">Ne</label>
+                 </div>
+    </td>
+    
+    
+ </tr>
+     
+  <tr>
+  	<td> <label >Da li je ispostovan dogovor?</label> </td>
+    <td>
+                 <div class="dogovorIspostovan">
+                      <label><input type="radio"  value="da" name="ispostovanDogovor">Da</label><br>
+                      <label><input type="radio" value="ne" name="ispostovanDogovor">Ne</label>
+                 </div>
+    </td>
+  </tr>
+
+  <tr>
+   <td colspan="2"> <p class="labelaErr" id="error" hidden="true"  ></p></td>
+	
+  </tr>
+  
+  <tr>
+  	<td colspan="2">  <p class="labelaOk" id="success" hidden="true" ></p> </td>
+  </tr>
+
+	 <tr>
+	 	  <td colspan="2" align="center"> <input type="submit" value="Dodaj"> </td>
+	 </tr> 
+	 
+  	</table>
+    
+  </form>
+</div>
+
+</body>
+</html>

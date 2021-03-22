@@ -1,0 +1,34 @@
+{
+	"Parfem": {
+		"naziv": "Parfem",
+		"opis": "original svega mi",
+		"izbrisan": false,
+		"listaOglasa": [
+			"2",
+			"3"
+		]
+	},
+	"Cetkice": {
+		"naziv": "Cetkice",
+		"opis": "od zivotinjske dlake",
+		"izbrisan": false,
+		"listaOglasa": [
+			"1"
+		]
+	},
+	"Oci": {
+		"naziv": "Oci",
+		"opis": "Kao kod Mage",
+		"izbrisan": false,
+		"listaOglasa": [
+			"4",
+			"5"
+		]
+	},
+	"Kafa": {
+		"naziv": "Kafa",
+		"opis": "Kafa kod Mage",
+		"izbrisan": true,
+		"listaOglasa": []
+	}
+}

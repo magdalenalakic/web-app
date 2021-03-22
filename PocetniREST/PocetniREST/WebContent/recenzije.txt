@@ -1,0 +1,10 @@
+Paleta za lice;viki;a;aa;true;false
+ceca;viki;REC;SADR;true;true
+Paleta za lice;viki;SSS;dsad das d as ddas j as sad xsaj kjx;false;false
+Maskara;viki;Maskara recenzija;Sadrzajjj dnanana;false;false
+Paleta za lice;sreto;AAd;dadsa;false;false
+Set cetkica;viki;Rec2;Sadrzaj rec2;false;true
+La Vie Est Bella;viki;BLAAAA;dsadsadadxasxasxasxasxax;false;false
+Cetkiza za oci;ivan;Rec1;Sadrzaj rec1;true;false
+ceca;ivan;Rec prodavac;Sadrzaj rec prodavac;true;true
+Cetkiza za oci;viki;CETKICA;dsadsa;false;false

@@ -1,0 +1,6 @@
+hela;hela;prodavac;12;1;helena;lakic;445;Zrenjanin;h@gmad;21-08-2019;
+viki;viki;kupac;0;0;violeta;maric;585;Beograd;v@mail;20-08-2019;#Set cetkica#Sjaj za usne#*Chloe parfem*Sjaj za usne*Puder*Cetkiza za konture*Cetkiza za konture*Chloe parfem*$Set cetkica$Sjaj za usne$
+sreto;sreto;kupac;0;0;sreto;lakic;511;Novi Sad;a@ddasda;24-08-2019;#La Vie Est Bella#*Set cetkica*Cetkiza za konture*Cetkiza za konture*Peach bronzer*$Paleta sjenki za oci$La Vie Est Bella$
+admin;admin;administrator;0;0;magdalena;lakic;585;Novi Sad;maga@mail;20-08-2019;
+ivan;ivan;kupac;0;0;ivan;milanovic;8545;Beograd;dsa@fdsfsd;22-08-2019;#Cetkiza za oci#Set od 2 lipstick-a#*Cetkiza za konture*Chloe parfem*Peach bronzer*Paleta sjenki za oci*Makeup case*Peach bronzer*Peach bronzer*$Cetkiza za oci$Set od 2 lipstick-a$
+ceca;ceca;prodavac;2;9;svetlana;antesevic;585;Beograd;a@mail;20-08-2019;
